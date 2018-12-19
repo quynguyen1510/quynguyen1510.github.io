@@ -80,8 +80,11 @@ nav#myNav:target li:last-child {
 input[type = checkbox]{
     display: none;
 }
-input[type = checkbox]:checked ~ #collapsibleNavbar{
+/*input[type = checkbox]:checked ~ #collapsibleNavbar{
     display: block;
+}*/
+.navEdit{
+    
 }
 .col-md-10 {
     height: 200px;
