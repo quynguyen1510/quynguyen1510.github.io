@@ -108,7 +108,7 @@ input[type = checkbox]:checked ~ #collapsibleNavbar{
 }
 #contactTitle{
     color: white;
-    padding-top: 5em;
+    padding-top: 4em;
 }
 #contactMe{
     padding: 0;
@@ -116,6 +116,22 @@ input[type = checkbox]:checked ~ #collapsibleNavbar{
     background-image: url(../images/contact_me.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+}
+.myRow{
+    width: 80%;
+}
+#rowMessage{
+    margin-top: 3em;
+}
+#contactContainer{
+    margin-top: 4em;
+}
+.col-submit{
+    margin-top: 3em;
+    text-align: center;
+}
+.col-submit button{
+    margin: 0 auto;
 }
 input{
     width: 100%;
@@ -160,6 +176,16 @@ input::placeholder{
     }
     #myActivity{
         margin: 0 auto;
+    }
+    #rowOne{
+        margin: 0 auto;
+    }
+    #rowMessage{
+        margin-top: 0;
+    }
+
+    .col-md{
+        margin-bottom: 1em;
     }
 }
 
