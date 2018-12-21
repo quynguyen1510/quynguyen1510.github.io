@@ -12,7 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="../quynguyen1510.github.io/css/style.css">
 	<link rel="stylesheet" type="text/css" href="../quynguyen1510.github.io/css/bootstrap.min.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#collapsibleNavbar" data-offset="10">
 	<div class="wrap">
 		<nav class="navbar bg-dark navbar-expand-sm fixed-top" id="myNav">
 			<!--Button nav  -->
@@ -25,7 +25,7 @@
 	        <div class="collapse navbar-collapse" id="collapsibleNavbar">
 	        	<ul class="navbar-nav mx-auto">
 	               <li class="nav-item">
-	                  <a class="nav-link" href="#">Home</a>
+	                  <a class="nav-link active" href="#home">Home</a>
 	               </li>
 	               <li class="nav-item">
 	                  <a class="nav-link" href="#aboutMe">About me</a>
@@ -42,11 +42,11 @@
 	            </ul>
 	        </div>
 		</nav>
-		<div>
+		<div id="home">
 			<img class="cover_img" src="../quynguyen1510.github.io/images/cover_img.jpg">
 		</div>
-		<div class="container-fluid">
-			<h2 class="title text-center" id="aboutMe" >About me</h2>
+		<div class="container-fluid" id="aboutMe">
+			<h2 class="title text-center" >About me</h2>
 			<p class="mx-auto content_aboutme">My name is Nguyen Cao Quy, I am student of Software Engineering at Duy Tan University, I have technical knowledge and experience through small project when i did at university. I want to find a company with a professional environment to practice. Learn more about programming with real project especially JAVA, Android and more new programming languages, improve English and Japanese skills, working attitude , getmore work experience to improve myself 
 			</p>
 			<div class="container" id="aboutmeContainer">
@@ -171,7 +171,7 @@
 			</div>
 		</div>
 
-		<div class="container-fluid mt-5" id="contactMe" >
+		<div class="container-fluid" id="contactMe" >
 			<h2 class="title text-center" id="contactTitle">Contact me</h2>
 		</div>
 		<div class="container mx-auto" id="contactContainer">
@@ -221,6 +221,7 @@
 	</div>
 	<script type="text/javascript" src="../quynguyen1510.github.io/js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="../quynguyen1510.github.io/js/custom.js"></script>
+	<script type="text/javascript" src="../quynguyen1510.github.io/js/bootstrap.js"></script>
 </body>
 
 </html>
