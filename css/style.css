@@ -80,11 +80,16 @@ nav#myNav:target li:last-child {
 input[type = checkbox]{
     display: none;
 }
-/*input[type = checkbox]:checked ~ #collapsibleNavbar{
-    display: block;
-}*/
-.navEdit{
-    
+#aboutMe,
+#activities
+{
+    padding-top:1em;
+}
+#activities{
+    padding-bottom: 2em;
+}
+.active{
+    color: #19c589;
 }
 .col-md-10 {
     height: 200px;
